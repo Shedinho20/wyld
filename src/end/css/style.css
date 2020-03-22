@@ -216,12 +216,11 @@ nav ul{
 
 
 .form-group {
-  background: #F1A77B;
+  background: #433C35;
   width: 300px;
-  padding: 1rem 1.2rem;
+  padding: 1rem 1.5rem;
   border-radius: 20px;
   height: 430px;
-  opacity: 0.5;
 }
 
 .form-field {
@@ -234,6 +233,7 @@ nav ul{
   border: none;
   background: white;
   border-radius: 20px;
+  opacity: 0.2;
 }
 
 .message textarea {
@@ -244,12 +244,17 @@ nav ul{
   border-radius: 20px;
   padding: 1rem 1.2rem;
   resize: none;
+  opacity: 0.2;
 }
 
 .input-outline::placeholder {
   color: #F1A77B;
 }
 
+.input-outline:focus {
+  outline: none;
+  color: black;
+}
 
 #btn-out3{
   width: 20px;
@@ -281,4 +286,25 @@ nav ul{
   margin-left: auto;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+}
+
+#contact {
+  margin: 1rem;
+  text-align: center;
+}
+
+#btn-contact {
+  background: #F1A77B;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 1rem 1rem;
+}
+
+#btn-contact:focus {
+  outline: none;
+}
+#btn-contact:hover {
+  cursor: pointer;
+  color: black;
 }
