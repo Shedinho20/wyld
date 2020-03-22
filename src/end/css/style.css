@@ -3,3 +3,282 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: pectia;
+  src: url(../Pecita.otf);
+}
+
+html {
+  font-size: 15px;
+}
+
+h1{
+  font-weight: 300;
+}
+
+h2{
+  font-weight: 200;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body1{ 
+  background: url(../img/bg.png) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.body2{ 
+  background: url(../img/bg-2.png) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.container{
+ width: 1100px;
+ margin:0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+#primaryColor{
+  color: #F1A77B;
+}
+.button{
+  border: none;
+  color: white;
+  background: #F1A77B;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  padding: auto;
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+/* ==============Home page=====
+===========
+===========
+===========
+========= */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#logo img{
+  width: 10%;
+  height: 10%;
+}
+
+nav ul{
+  display: flex;
+}
+
+.navBTN{
+  margin-left: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.section{
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#section-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 90px;
+  width: 1100px;
+}
+.text{
+  color: #F1A77B;
+  font-size: 42px;
+  letter-spacing: 3px;
+  line-height: 75px;
+}
+
+.btn{
+  height: 210px;
+  border: none;
+  width: 80px;
+  background: #F1A77B;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  font-family:pectia;
+  border-radius: 50px;
+  flex-direction: column;
+}
+#btn-hor{
+  margin-left: 10px;
+  transform: rotate(-90deg);
+  width:100%;
+  font-size: 32px;
+  letter-spacing: 10px;
+}
+#btn-out{
+  width: 20px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  background: #F1A77B;
+  opacity: 0.5;
+}
+
+#position{
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.rect{
+  height: 50px;
+  width: 1100px;
+  left: 90px;
+  bottom: 0px;
+  position: absolute;
+  display: flex;
+}
+
+#rect-1{
+  background: #F1A77B;
+  opacity: 0.5;
+  width: 650px;
+  height: 15px;
+  position: absolute;
+  bottom: 0px;
+  border-top-left-radius: 50px;
+}
+#rect-2{
+  background: #F1A77B;
+  width: 450px;
+  height: 15px;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  border-top-right-radius: 50px;
+}
+
+/* ==============About page=====
+===========
+===========
+===========
+========= */
+
+.text-abt{
+  text-align: center;
+  color: #FBEDE5;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 52px;
+}
+
+#position-abt{
+  margin-top: 100px;
+}
+
+.btn-con{
+  display: flex;
+}
+
+#position-btn{
+  margin: 50px auto;
+  opacity: 0.6;
+}
+
+#btn-out2{
+  width: 20px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  background: #F1A77B;
+}
+
+
+/* ==============About page=====
+===========
+===========
+===========
+========= */
+
+
+.form-group {
+  background: #F1A77B;
+  width: 300px;
+  padding: 1rem 1.2rem;
+  border-radius: 20px;
+  height: 430px;
+  opacity: 0.5;
+}
+
+.form-field {
+  margin-top: 1rem;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  background: white;
+  border-radius: 20px;
+}
+
+.message textarea {
+  color: #F1A77B;
+  width: 100%;
+  border: none;
+  background: white;
+  border-radius: 20px;
+  padding: 1rem 1.2rem;
+  resize: none;
+}
+
+.input-outline::placeholder {
+  color: #F1A77B;
+}
+
+
+#btn-out3{
+  width: 20px;
+  height: 430px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  background: #F1A77B;
+}
+
+#btn-out4{
+  width: 20px;
+  height: 430px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  background: #F1A77B;
+  opacity: 0.5;
+}
+
+#rect-3{
+  background: #F1A77B;
+  opacity: 0.5;
+  width: 300px;
+  height: 15px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
