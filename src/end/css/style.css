@@ -308,3 +308,156 @@ nav ul{
   cursor: pointer;
   color: black;
 }
+
+
+/* ==============responsive design 1920px=====
+===========
+===========
+===========
+========= */
+
+
+@media (min-width:1290px) {
+ 
+  /* ==============Home page=====
+  ===========
+  ===========
+  ===========
+  ========= */
+  
+    .button{
+      height: 70px;
+      width: 200px;
+      font-size: 30px;
+      border-radius: 40px;
+    }
+  
+    #logo img{
+      width: 20%;
+    }
+    
+    
+    .navBTN{
+      font-size: 20px;
+    }
+    
+    .section{
+      margin-top: 250px;
+    }
+    
+    #section-2{
+      margin-left: 150px;
+    }
+    .text{
+      color: #F1A77B;
+      font-size: 60px;
+      letter-spacing: 5px;
+      line-height: 120px;
+    }
+    
+    .btn{
+      height: 300px;
+      width: 100px;
+    }
+  
+    #btn-hor{
+      margin-top: 20px;
+      font-size: 50px;
+      letter-spacing: 10px;
+    }
+    
+    #position{
+      margin-left: 150px;
+      margin-top: 60px;
+    }
+  
+    .rect{
+      left: 150px;
+    }
+  
+    /* ==============About page=====
+  ===========
+  ===========
+  ===========
+  ========= */
+  
+  .text-abt{
+    text-align: center;
+    color: #FBEDE5;
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 100px;
+  }
+  
+  #position-abt{
+    margin-top: 200px;
+    align-items: flex-start;
+  }
+  
+  .btn-con{
+    display: flex;
+  }
+  
+  #position-btn{
+    margin: 80px auto;
+    opacity: 0.6;
+  }
+  
+  
+  #btn-out2{
+  height: 380px;
+  }
+  
+  #btn-out{
+  height: 380px;
+  }
+  
+  /* ==============contact page=====
+  ===========
+  ===========
+  ===========
+  ========= */
+  
+  
+  .form-group {
+    width: 500px;
+    height: 615px;
+  }
+  
+  .form-field {
+    margin-top: 1.2rem;
+  }
+  
+  .form-field input {
+    padding: 1rem 1.5rem;
+    font-size: 20px;
+  }
+  
+  .message textarea {
+    font-size: 20px;
+    padding: 1rem 1.5rem;
+  }
+  
+  #btn-out3{
+    height: 615px;
+  }
+  
+  #btn-out4{
+    height: 615px;
+  }
+  
+  #rect-3{
+    width: 500px;
+  }
+  
+  #btn-contact {
+    background: #F1A77B;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    padding: 1.5rem 2rem;
+    text-align: center;
+  }
+  
+  }
