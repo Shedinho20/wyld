@@ -64,6 +64,13 @@ button{
     background-color: rgba(241, 167, 123, 0.6);
 }
 
+button:hover{
+    background-color: rgba(241, 167, 123, 0.9);
+    color: black;
+}
+button:focus{
+    outline: none;
+}
   /* ==============Home page=====
 ===========
 ===========
@@ -255,6 +262,11 @@ input {
     color: #F1A77B;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.input-outline:focus {
+    outline: none;
+    color: white;
 }
 
 .message textarea {
