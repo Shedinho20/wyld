@@ -189,7 +189,7 @@ nav a{
     display: flex;
     margin-top: 12em;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 .text-abt{
@@ -202,16 +202,16 @@ nav a{
 
 #btn-out2{
     width: 1%;
-    height: 300px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
+    /* height: 300px; */
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
     background: #F1A77B;
 }
 #btn-out1{
     width: 1%;
-    height: 300px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
+    /* height: 300px; */
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
     background: #F1A77B;
     opacity: 0.5;
 }
@@ -312,4 +312,21 @@ input {
     height: 15px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+}
+
+  /* ==============contact page=====
+===========
+===========
+===========
+========= */
+
+@media (min-width:1900px){
+    html{
+        font-size: 20px;
+    }
+
+    .btn{
+        height: 310px;
+        width: 110px;
+    }
 }
