@@ -1,332 +1,326 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 @font-face {
-    font-family: pectia;
-    src: url(../Pecita.otf);
+  font-family: pectia;
+  src: url(../Pecita.otf);
 }
-  
+
 html {
-    font-size: 15px;
+  font-size: 15px;
 }
 
-.body1{ 
-    background-image: url(../img/bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.body1 {
+  background-image: url(../img/bg.png);
+  font-family: Arial, Helvetica, sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.body2{ 
-    background: url(../img/bg-2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.body2 {
+  background: url(../img/bg-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-h2{
-    font-weight: 100;
+h2 {
+  font-weight: 100;
 }
 
-h1{
-    font-weight: 300;
+h1 {
+  font-weight: 300;
 }
-.container{
-    width: 90%;
-    margin:0 auto;
-    /* min-width: 1000px; */
-    padding-top: 2em;
-}
-
-.primaryColor{
-    color: #F1A77B;
-    font-weight: 900;
+.container {
+  width: 90%;
+  margin: 0 auto;
+  /* min-width: 1000px; */
+  padding-top: 2em;
 }
 
-button{
-    border: none;
-    color: white;
-    width: 13%;
-    padding: 1em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.5rem;
-    margin-top: 2em;
-    border-radius: 50px;
-    cursor: pointer;
-    background-color: rgba(241, 167, 123, 0.6);
+.primaryColor {
+  color: #f1a77b;
+  font-weight: 900;
 }
 
-button:hover{
-    background-color: rgba(241, 167, 123, 0.9);
-    color: black;
+button {
+  border: none;
+  color: white;
+  width: 13%;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 2em;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: rgba(241, 167, 123, 0.6);
 }
-button:focus{
-    outline: none;
+
+button:hover {
+  background-color: rgba(241, 167, 123, 0.9);
+  color: black;
 }
-  /* ==============Home page=====
+button:focus {
+  outline: none;
+}
+/* ==============Home page=====
 ===========
 ===========
 ===========
 ========= */
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header img{
-    width: 10%;
+header img {
+  width: 10%;
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
+nav ul {
+  display: flex;
+  list-style: none;
 }
 
-nav li{
-    margin-left: 6em;
+nav li {
+  margin-left: 6em;
 }
 
-nav a{
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-decoration: none;
-    color: white;
-    letter-spacing: .1em;
+nav a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.1em;
 }
 
-#section-2{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 8em;
-    align-items: center;
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8em;
+  align-items: center;
 }
 
-.text{
-    color: #F1A77B;
-    font-size: 4rem;
-    letter-spacing: 0.1em;
-    line-height: 1.6em;
+.text {
+  color: #f1a77b;
+  font-size: 4rem;
+  letter-spacing: 0.1em;
+  line-height: 1.6em;
 }
 
-.btn{
-    height: 210px;
-    border: none;
-    width: 80px;
-    background: #F1A77B;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family:pectia;
-    border-radius: 50px;
+.btn {
+  height: 210px;
+  border: none;
+  width: 80px;
+  background: #f1a77b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: pectia;
+  border-radius: 50px;
 }
 
-#btn-hor{
-    margin-left: 10px;
-    transform: rotate(-90deg);
-    width:100%;
-    font-size: 2.2rem;
-    letter-spacing: .3em;
-    line-height: 2em;
+#btn-hor {
+  margin-left: 10px;
+  transform: rotate(-90deg);
+  width: 100%;
+  font-size: 2.2rem;
+  letter-spacing: 0.3em;
+  line-height: 2em;
 }
 
-#btn-out{
-    width: 1%;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    background: #F1A77B;
-    opacity: 0.5;
-    position: absolute;
-    right: 0;
-  }
-
-.rect{
-    height: 50px;
-    width: 90%;
-    left: 5%;
-    bottom: 0px;
-    position: absolute;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+#btn-out {
+  width: 1%;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  background: #f1a77b;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
 }
 
-
-
-#rect-1{
-    background: #F1A77B;
-    opacity: 0.5;
-    width: 60%;
-    height: 15px;
-    border-top-left-radius: 50px;
-}
-#rect-2{
-    background: #F1A77B;
-    width: 40%;
-    height: 15px;
-    border-top-right-radius: 50px;
+.rect {
+  height: 50px;
+  width: 90%;
+  left: 5%;
+  bottom: 0px;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
+#rect-1 {
+  background: #f1a77b;
+  opacity: 0.5;
+  width: 60%;
+  height: 15px;
+  border-top-left-radius: 50px;
+}
+#rect-2 {
+  background: #f1a77b;
+  width: 40%;
+  height: 15px;
+  border-top-right-radius: 50px;
+}
 
-  /* ==============About page=====
+/* ==============About page=====
 ===========
 ===========
 ===========
 ========= */
 
-
-.section{
-    display: flex;
-    margin-top: 12em;
-    justify-content: space-between;
-    align-items: stretch;
+.section {
+  display: flex;
+  margin-top: 12em;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-.text-abt{
-    text-align: center;
-    color: #FBEDE5;
-    font-size: 2rem;
-    letter-spacing: 5px;
-    line-height: 2.5em;
+.text-abt {
+  text-align: center;
+  color: #fbede5;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  line-height: 2.5em;
 }
 
-#btn-out2{
-    width: 1%;
-    /* height: 300px; */
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
-    background: #F1A77B;
+#btn-out2 {
+  width: 1%;
+  /* height: 300px; */
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  background: #f1a77b;
 }
-#btn-out1{
-    width: 1%;
-    /* height: 300px; */
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    background: #F1A77B;
-    opacity: 0.5;
-}
-
-#btn-abt{
-    display: flex;
-    justify-content: center;
+#btn-out1 {
+  width: 1%;
+  /* height: 300px; */
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  background: #f1a77b;
+  opacity: 0.5;
 }
 
+#btn-abt {
+  display: flex;
+  justify-content: center;
+}
 
-  /* ==============contact page=====
+/* ==============contact page=====
 ===========
 ===========
 ===========
 ========= */
 
-.section-con{
-    display: flex;
-    margin-top: 8em;
-    justify-content: space-between;
-    align-items: stretch;
-    /* background-color: aliceblue; */
+.section-con {
+  display: flex;
+  margin-top: 8em;
+  justify-content: space-between;
+  align-items: stretch;
+  /* background-color: aliceblue; */
 }
 
 .form-group {
-    background: rgb(105, 94, 82);
-    width: 20%;
-    padding: 2em 1.5em;
-    border-radius: 20px;
-    height: 100%;
-    text-align: center;
+  background: rgb(105, 94, 82);
+  width: 20%;
+  padding: 2em 1.5em;
+  border-radius: 20px;
+  height: 100%;
+  text-align: center;
 }
 
 .form-field {
-    margin-top: .5em;
-}
-  
-input {
-    width: 100%;
-    margin-top: 1em;
-    padding: 1.5em 2em;
-    border: none;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
+  margin-top: 0.5em;
 }
 
-::placeholder{
-    color: #F1A77B;
-    font-size: 1rem;
-    font-weight: 400;
+input {
+  width: 100%;
+  margin-top: 1em;
+  padding: 1.5em 2em;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+::placeholder {
+  color: #f1a77b;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .input-outline:focus {
-    outline: none;
-    color: white;
+  outline: none;
+  color: white;
 }
 
 .message textarea {
-    color: #F1A77B;
-    width: 100%;
-    margin-top: 1em;
-    border: none;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    padding: 1.5em 2em;
-    resize: none;
-    font-size: 1rem;
-    font-weight: 400;
+  color: #f1a77b;
+  width: 100%;
+  margin-top: 1em;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 1.5em 2em;
+  resize: none;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-#button-con{
-    width: 60%;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    margin-top: 1.8em;
-    background-color: rgba(241, 167, 123, 0.8);
+#button-con {
+  width: 60%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 1.8em;
+  background-color: rgba(241, 167, 123, 0.8);
 }
 
-
-#btn-out3{
-    width: 1%;
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
-    background: #F1A77B;
-}
-  
-#btn-out4{
-    width: 1%;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    background-color: rgba(241, 167, 123, 0.5);
+#btn-out3 {
+  width: 1%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  background: #f1a77b;
 }
 
-#rect-3{
-    background: #F1A77B;
-    opacity: 0.5;
-    width: 22.25%;
-    height: 15px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+#btn-out4 {
+  width: 1%;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: rgba(241, 167, 123, 0.5);
 }
 
-  /* ==============contact page=====
+#rect-3 {
+  background: #f1a77b;
+  opacity: 0.5;
+  width: 22.25%;
+  height: 15px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+/* ==============contact page=====
 ===========
 ===========
 ===========
 ========= */
 
-@media (min-width:1900px){
-    html{
-        font-size: 20px;
-    }
+@media (min-width: 1900px) {
+  html {
+    font-size: 20px;
+  }
 
-    .btn{
-        height: 310px;
-        width: 110px;
-    }
+  .btn {
+    height: 310px;
+    width: 110px;
+  }
 }
