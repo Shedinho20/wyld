@@ -13,9 +13,12 @@ html {
   font-size: 15px;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .body1 {
   background-image: url(../img/bg.png);
-  font-family: Arial, Helvetica, sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
