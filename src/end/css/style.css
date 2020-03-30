@@ -116,6 +116,7 @@ nav a {
   font-size: 4rem;
   letter-spacing: 0.1em;
   line-height: 1.6em;
+  width: 70%;
 }
 
 .btn {
@@ -164,13 +165,13 @@ nav a {
 #rect-1 {
   background: #f1a77b;
   opacity: 0.5;
-  width: 60%;
+  width: 70%;
   height: 15px;
   border-top-left-radius: 50px;
 }
 #rect-2 {
   background: #f1a77b;
-  width: 40%;
+  width: 30%;
   height: 15px;
   border-top-right-radius: 50px;
 }
