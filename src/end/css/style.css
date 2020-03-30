@@ -33,13 +33,7 @@ body {
   height: 100vh;
 }
 
-h2 {
-  font-weight: 100;
-}
 
-h1 {
-  font-weight: 300;
-}
 .container {
   width: 90%;
   margin: 0 auto;
@@ -120,6 +114,7 @@ nav a {
   letter-spacing: 0.1em;
   line-height: 1.6em;
   width: 70%;
+  font-weight: 300;
 }
 
 .btn {
@@ -195,9 +190,11 @@ nav a {
 .text-abt {
   text-align: center;
   color: #fbede5;
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 5px;
   line-height: 2.5em;
+  width: 70%;
+  font-weight: 100;
 }
 
 #btn-out2 {
@@ -312,7 +309,7 @@ input {
   border-top-right-radius: 50px;
 }
 
-/* ==============contact page=====
+/* ==============media=====
 ===========
 ===========
 ===========
@@ -327,4 +324,167 @@ input {
     height: 310px;
     width: 110px;
   }
+}
+
+
+@media (max-width: 430px) {
+
+    /* ==============Home page=====
+     ===========
+    ===========
+    ===========
+    ========= */
+
+
+    html {
+        font-size: 6px;
+    }
+
+    .container{
+        padding-top: 5em;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    #btn-hor{
+        display: none;
+    }
+
+    #btn-out{
+        display: none;
+    }
+
+    #section-2{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text{
+        text-align: center;
+        margin-top: 3em;
+        font-size: 5rem;
+        width: 100%;
+    }
+
+
+    #btn-abt {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    #btn-abt1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    .rect {
+        bottom: 10%;
+        width: 80%;
+        left: 10%;
+    }
+
+    #rect-2 {
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    #rect-1 {
+        width: 0%;
+    }
+
+    button {
+        width: 30%;
+        font-size: 2rem;
+    }
+
+
+    /* ==============about page=====
+     ===========
+    ===========
+    ===========
+    ========= */
+
+    .section {
+        margin-top: 25em;
+    }
+
+    .text-abt {
+        font-size: 3rem;
+        letter-spacing: 4px;
+        line-height: 1.8em;
+        width: 80%;
+    }
+
+    /* ==============contact page=====
+     ===========
+    ===========
+    ===========
+    ========= */
+
+
+    .section-con {
+        margin-top: 15em;
+    }
+      
+    .form-group {
+        width: 45%;
+    }
+      
+    .form-field {
+        margin-top: 0.5em;
+    }
+      
+    input {
+        margin-top: 1em;
+        padding: .6em 1em;
+        border: none;
+        background: rgba(255, 255, 255, 0.2);
+    
+    }
+      
+    ::placeholder {
+        color: #f1a77b;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+      
+    .message textarea {
+        color: #f1a77b;
+        width: 100%;
+        margin-top: 1em;
+        border: none;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding: .6em 1em;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+      
+    #button-con {
+        width: 60%;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        margin-top: 1.8em;
+        background-color: rgba(241, 167, 123, 0.8);
+    }
+      
+    #rect-3 {
+        display: none;
+    }
+    
+    #rect-33 {
+        margin-bottom: 15%;
+        background: #f1a77b;
+        width: 50%;
+        height: 15px;
+        border-radius: 50px;
+    }
+
 }
