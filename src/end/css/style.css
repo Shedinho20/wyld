@@ -384,7 +384,7 @@ input {
     width: 100%;
     transform: translateY(-100000px);
     transition: 0.3s ease-in-out;
-    height: 15%;
+    height: 16%;
   }
   
   #menu-content.open {
@@ -406,6 +406,7 @@ input {
     list-style: none;
     color: wheat;
     font-size: 2rem;
+    border-top: 1px solid #f1a67b36;
   }
 
   #menu-content li:hover {
