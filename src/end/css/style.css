@@ -341,8 +341,8 @@ input {
     text-decoration: none;
   }
 
-  header {
-    transition: 0.3s ease-in-out;
+  nav {
+    transition: 0.1s ease-in-out;
   }
 
   nav li{
@@ -382,8 +382,8 @@ input {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    transform: translateY(-100000px);
-    transition: 0.3s ease-in-out;
+    transform: translateY(-180px);
+    transition: 0.1s ease-in-out;
     height: 16%;
   }
   
